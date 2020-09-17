@@ -1,0 +1,256 @@
+html, body{
+  
+      background-color: #f1f1f1 !important;
+  }
+
+ 
+.input-group.md-form.form-sm.form-1 input{
+    border: 1px solid #bdbdbd;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    }
+    
+
+    .backDarkGrey{
+        background-color: #212121;
+    }
+
+    .text-light a {
+        color: #fff;
+    }
+    
+
+
+
+    .active1{
+        color: #00a2ff;
+        /* border-bottom: solid 2px #fff; */
+        /* padding-bottom: 15px; */
+    }
+    
+  #main-navbar   a {
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 0.32em;
+        
+        display: inline-block;
+        /* padding: 15px 20px; */
+        position: relative;
+      }
+      #main-navbar    a:after {    
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: #fff;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+      }
+      #main-navbar     a:hover:after { 
+        width: 100%; 
+        left: 0; 
+      }
+    
+      .nav-link:hover{
+        color: #00a2ff;
+    }
+
+
+
+footer{
+  background-color: #212121;
+  padding:30px 0px;
+}	       
+
+
+.address span , .menu span{
+color: #FFF; 
+font-weight: bold; 
+border-bottom: 1px solid #c7c7c7; 
+padding:10px 0px;
+display: block;
+text-transform: uppercase;
+font-size: 16px;
+letter-spacing: 3px;
+}
+
+.address li a , .menu li a{
+ color:#FFF;
+ letter-spacing: 3px;
+ text-decoration:none;
+ font-size:14px;
+}
+
+.address li, .menu li{
+ margin:20px 0px;
+ list-style: none;
+}
+
+.address li a:hover , .menu li a:hover{
+ color: #00a2ff;
+ -webkit-transition: all 1s ease-in-out;
+ -moz-transition: all 1s ease-in-out;
+ -o-transition: all 1s ease-in-out;
+ transition: all 1s ease-in-out;
+}
+
+.address .fa{
+ color: #00a2ff;
+ margin-right: 10px;
+ font-size:18px;
+}
+
+
+.onHover { 
+  transition: all .4s ease-in-out;
+}
+
+
+.onHover:hover{
+ -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+      
+  
+}
+
+.textHover:hover{
+  text-decoration-line: none;
+}
+
+
+
+.contact-form {
+  margin: 50px auto;
+  padding: 25px 20px 10px;
+  background: #212121;
+  box-shadow: 2px 2px 4px #ab8de0;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.contact-form h2 {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+}
+
+
+.shaddow{
+  -webkit-box-shadow: 0px 6px 8px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 6px 8px -8px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 8px -8px rgba(0,0,0,0.75);
+}
+
+
+.dropdown-menu a:hover {
+
+  background-color: rgba(0, 170, 255, 0.891);
+}
+
+
+.noUnderline{
+    -webkit-box-shadow: 0px 6px 8px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 6px 8px -8px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 8px -8px rgba(0,0,0,0.75);
+  padding: 7px;
+  padding-bottom:7px;
+}
+.noUnderline:hover{
+  text-decoration-line: none;
+
+
+}
+
+@media (min-width: 768px){
+  .width50{
+    width: 50%;
+  }
+}
+
+
+#toTop {
+  font-size:50px;
+  padding: 5px 3px;
+  /* background: #000; */
+  color: #0073ff;
+  position: fixed;
+  bottom: 0;
+  right: 5px;
+  display: none;
+  cursor: pointer;
+}
+
+.table td.fit, 
+.table th.fit {
+    white-space: nowrap;
+    width: 1%;
+}
+
+.egp{
+  font-size: 18px;
+  box-sizing: content-box;
+  border: solid rgb(52, 21, 0) 5px;
+  font-weight: bold;
+  
+}
+
+.order{
+  font-size: 16px;
+  font-family: monospace;
+  background-color: rgb(52, 21, 0);
+  color: #fff;
+  text-decoration: none !important;
+
+}
+
+.order div{
+  color: #fff;
+  padding-top: 3px;
+}
+
+@media screen and (min-width:769px )
+{
+.egp{
+  font-size: 24px;
+}
+
+.order{
+  font-size: 24px;
+}
+
+}
+
+
+.orderBtn{
+  background-color: rgb(52, 21, 0);
+  color: #fff;
+}
+
+.boxShadow{
+  -webkit-box-shadow: 0px 11px 5px 2px rgba(0,0,0,0.53);
+-moz-box-shadow: 0px 11px 5px 2px rgba(0,0,0,0.53);
+box-shadow: 0px 11px 5px 2px rgba(0,0,0,0.53);
+}
+
+/* table td {
+  position: relative;
+}
+
+table td input {
+  position: absolute;
+  display: block;
+  top:0;
+  left:0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+ */
